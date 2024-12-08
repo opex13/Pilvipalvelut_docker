@@ -1,3 +1,19 @@
 services:
   palvelin:
-    
+    build: ./Palvelin
+    ports:
+      - "8000:8000"
+    volumes:
+      - servervol:/app/dataa
+    networks:
+      - verkko
+    environment:
+      - DATA_DIR=/app/dataa
+
+volumes:
+  servervol:
+    driver: local
+
+networks:
+  verkko:
+    driver: bridge
