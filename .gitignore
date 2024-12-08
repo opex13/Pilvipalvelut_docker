@@ -1,3 +1,7 @@
+#projektikohtaiset ignore asetukset
+dataa/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
