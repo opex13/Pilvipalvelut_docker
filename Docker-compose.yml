@@ -9,9 +9,19 @@ services:
       - verkko
     environment:
       - DATA_DIR=/app/dataa
+  asiakas:
+    build: ./Asiakas
+    volumes:
+      - clientvol:/clientdata
+    networks:
+      - verkko
+    environment:
+      - DATA_DIR=/clientdata
 
 volumes:
   servervol:
+    driver: local
+  clientvol:
     driver: local
 
 networks:

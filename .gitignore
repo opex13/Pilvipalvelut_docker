@@ -1,6 +1,6 @@
 #projektikohtaiset ignore asetukset
 dataa/
-
+asiakasdataa/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
