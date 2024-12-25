@@ -84,3 +84,5 @@ docker-compose down
 ```
 docker-compose down -v
 ```
+
+## Skriptit: [Scripts.md tiedostossa](https://github.com/opex13/Pilvipalvelut_docker/blob/main/scripts.md)
