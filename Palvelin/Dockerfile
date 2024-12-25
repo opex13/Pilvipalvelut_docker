@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY /src .
 
-CMD ["python", "palvelin.py"]
+CMD ["python3", "palvelin.py"]

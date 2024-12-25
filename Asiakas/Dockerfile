@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY /src .
 
-CMD ["python", "asiakas.py"]
+RUN pip install requests
+
+CMD ["python3", "asiakas.py"]
